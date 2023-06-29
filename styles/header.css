@@ -1,0 +1,98 @@
+.wrapper{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-logo{
+  width: 295px;
+  height: px; 
+}
+
+.header-wrapper{
+  display: flex;
+}
+
+
+.home-wrapper{
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/images/home-image/cyber.png") no-repeat;
+}
+
+
+.link-icon-wrapper{
+  width: 30px;
+  height: 30px;
+}
+
+.header-wrapper__wrapper{
+  display: flex;
+  height: 67px;
+}
+
+.header-wrapper{
+  width: 1360px;
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.header-wrapper__title-logo{
+  width: 295px;
+  height: 67px;
+}
+
+.main-header{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-end;  */
+}
+
+.aside-wrapper-home{
+  width: 625px;
+  height: 370px;
+  flex-shrink: 0;
+  position: relative;
+  top: 568px;
+  background: #F8F200;
+  clip-path: polygon(12% 0, 100% 0, 100% 35%, 100% 75%, 91% 86%, 53% 86%, 0 85%, 0 10%);
+}
+
+.square{
+  width: 485px;
+  height: 126px;
+  display: block;
+  position: relative;
+  top: 30px;
+  left: 80px;
+}
+
+.aside-wrapper-title{
+  display: flex;
+  width: 484px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  background: #F8F200;
+  font-size: 62px;
+}
+
+.aside-wrapper-button{
+  display: inline-flex;
+  padding: 19px 50px;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 10px;
+  background: #000;
+  color: #F8F200;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-top: 40px;
+}
